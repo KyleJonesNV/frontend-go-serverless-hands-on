@@ -8,7 +8,7 @@ function MovieItem(props: Props) {
   return (
     <div className="max-w-m rounded overflow-hidden shadow-lg border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
-        <img className="object-cover rounded-t-lg w-full" src={props.movie.Cover} alt="movie title" />
+        <img className="object-cover rounded-t-lg w-fit h-max" src={props.movie.Cover} alt="movie title" />
       </a>
       <div className="p-5 flex flex-col mt-auto">
         <a href="#">
