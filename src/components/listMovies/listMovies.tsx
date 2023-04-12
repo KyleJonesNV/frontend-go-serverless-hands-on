@@ -7,7 +7,7 @@ type Props = {
 
 function listMovies(props: Props) {
   return (
-    <div className="grid grid-cols-4 gap-5 px-5 py-5">
+    <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5 px-5 py-5">
         {props.movies?.map((movie) => (
             <>
                 <MovieItem movie={movie} />
