@@ -1,4 +1,4 @@
-import { Movie } from '@/pages'
+import { Movie } from '@/pages/movies'
 import { useCallback } from 'react'
 import { useState } from 'react'
 
