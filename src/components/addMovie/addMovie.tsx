@@ -1,7 +1,7 @@
-import { Movie } from '@/pages'
 import { environment } from '../../../environment'
 import { useMutation } from 'react-query'
 import { useEffect, useState } from 'react'
+import { Movie } from '@/pages/movies'
 
 const addMovie = async (movie: Movie) => {
   const res = await fetch(environment.api + 'add', {
