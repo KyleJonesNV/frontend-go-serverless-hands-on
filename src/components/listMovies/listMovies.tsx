@@ -1,4 +1,4 @@
-import { Movie } from '@/pages'
+import { Movie } from '@/pages/movies'
 import MovieItem from '../movieItem/movieItem'
 
 type Props = {
